@@ -1,0 +1,119 @@
+
+  body {
+    background: #f5f6fa;
+    font-family: 'Oswald', sans-serif;
+    
+   }
+/*Inicio del ccs del footer*/
+.page-footer {
+
+   background: #78C2AD; 
+   text-align: center;
+
+}
+
+.page-footer  h5 {
+
+   color:#fff; 
+    text-align: center;
+}
+.page-footer  p {
+
+   color:#fff; 
+    text-align: center;
+}
+.page-footer  a {
+
+   color:#fff; 
+    text-align: center;
+}
+
+.copy {
+
+   background:#13C27D; 
+    text-align: center;
+}
+.copy p a {
+    color: #ffce14;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.copy p a:hover{
+    color:#fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+
+.copy p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 1em;
+}
+/*Fin del css del footer*/
+.special-card-title{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content {
+  width:100%;
+  height: 400px;
+}
+ table td,th{
+    border:2px solid black;
+    padding: 20px;
+    }
+
+/*Color al ancabezado tabla*/
+thead{
+    background-color: #246355;
+    color: white;
+
+}
+/*Estilo ala tabla sombreado */
+tr:nth-child(even){
+    background-color: #ddd
+}
+/*Iluminacion ala tabla cuando de seleccion*/
+tr:hover td{
+    background-color:#369681 ; 
+    color: white;
+}
+/*Estilo de pagina de biebenida de invitado*/
+.masthead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url('/imagenes/vacation.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+    @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    .masthead h1 {
+      font-size: 5.5rem;
+    }
+  }
+
